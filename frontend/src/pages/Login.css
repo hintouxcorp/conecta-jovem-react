@@ -1,0 +1,125 @@
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+}
+
+/* LADO ESQUERDO */
+
+.login-left {
+  flex: 1;
+
+  background: linear-gradient(135deg, #3b82f6, #6366f1, #8b5cf6);
+
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 40px;
+}
+
+.login-brand {
+  max-width: 400px;
+}
+
+.login-brand h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.login-brand p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* LADO DIREITO */
+
+.login-right {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #f8f9fb;
+}
+
+/* CARD */
+
+.login-card {
+  background: white;
+
+  padding: 40px;
+  border-radius: 12px;
+
+  width: 350px;
+
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+.login-card h2 {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* FORM */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.input-group input {
+  padding: 10px 12px;
+
+  border-radius: 6px;
+  border: 1px solid #ddd;
+
+  font-size: 0.95rem;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #6366f1;
+}
+
+/* BOTÃO */
+
+.login-button {
+  margin-top: 10px;
+
+  padding: 12px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: linear-gradient(135deg, #3b82f6, #6366f1);
+
+  color: white;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.login-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
