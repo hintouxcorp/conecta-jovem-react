@@ -136,3 +136,9 @@
   color: #6366f1;
   text-decoration: none;
 }
+
+.form-error {
+  color: #ef4444;
+  font-size: 0.85rem;
+  text-align: center;
+}
